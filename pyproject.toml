@@ -1,0 +1,52 @@
+[project]
+name = "kasm-pkg"
+version = "0.1.0"
+description = "Kernel allelic series model for rare-variant heritability from exome summary statistics."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Kangcheng Hou", email = "kangchenghou@gmail.com" }]
+requires-python = ">=3.12"
+keywords = ["genetics", "heritability", "rare variants", "exome", "summary statistics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "clarabel>=0.11.1",
+    "numpy",
+    "polars>=1.30",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "pre-commit",
+    "cvxpy>=1.7.5",
+    "pytest-xdist>=3.8.0",
+]
+
+[project.urls]
+Repository = "https://github.com/KangchengHou/kasm-pkg"
+Documentation = "https://github.com/KangchengHou/kasm-pkg/blob/main/DOCS.md"
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "kasm"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
+addopts = "-q --strict-markers -n auto"
