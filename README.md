@@ -1,4 +1,4 @@
-# KASM
+# KASM (Kernel Allelic Series Model)
 
 [![Tests](https://img.shields.io/github/actions/workflow/status/KangchengHou/kasm-pkg/tests.yml?branch=main&label=Tests&logo=github&style=flat-square)](https://github.com/KangchengHou/kasm-pkg/actions/workflows/tests.yml)
 [![PyPI](https://img.shields.io/pypi/v/kasm-pkg?label=PyPI&logo=pypi&logoColor=white&style=flat-square)](https://pypi.org/project/kasm-pkg/)
@@ -6,12 +6,12 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://github.com/KangchengHou/kasm-pkg/blob/main/LICENSE)
 [![Documentation](https://img.shields.io/badge/Documentation-DOCS.md-blue?style=flat-square)](https://github.com/KangchengHou/kasm-pkg/blob/main/DOCS.md)
 
-The Kernel Allelic Series Model (KASM) integrates functional annotations to
-form a covariance kernel describing how allelic effects within a gene covary.
-Using data from exome association studies, KASM estimates the heritability of
-rare protein coding variants, its enrichment in structural and functional
-annotations, and the concordance of effects between pairs of variants. Our
-paper describes the methodology and applications in detail.
+KASM is a method that integrates functional annotations to form a covariance
+kernel describing how allelic effects within a gene covary. Using data from
+exome association studies, KASM estimates the heritability of rare protein
+coding variants, its enrichment in structural and functional annotations, and
+the concordance of effects between pairs of variants. Our paper describes the
+methodology and applications in detail.
 
 KASM can be installed with `pip install kasm-pkg` or `uv add kasm-pkg`.
 
