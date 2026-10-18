@@ -1,5 +1,10 @@
 # KASM
 
+[![tests](https://img.shields.io/github/actions/workflow/status/KangchengHou/kasm-pkg/tests.yml?branch=main&label=tests&logo=github&style=flat-square)](https://github.com/KangchengHou/kasm-pkg/actions/workflows/tests.yml)
+[![PyPI](https://img.shields.io/pypi/v/kasm-pkg?logo=pypi&logoColor=white&style=flat-square)](https://pypi.org/project/kasm-pkg/)
+[![Python](https://img.shields.io/pypi/pyversions/kasm-pkg?logo=python&logoColor=white&style=flat-square)](https://pypi.org/project/kasm-pkg/)
+[![License](https://img.shields.io/github/license/KangchengHou/kasm-pkg?style=flat-square)](https://github.com/KangchengHou/kasm-pkg/blob/main/LICENSE)
+
 The Kernel Allelic Series Model (KASM) integrates functional annotations to
 form a covariance kernel describing how allelic effects within a gene covary.
 Using data from exome association studies, KASM estimates the heritability of
