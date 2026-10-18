@@ -15,8 +15,6 @@ methodology and applications in detail.
 
 KASM can be installed with `pip install kasm-pkg` or `uv add kasm-pkg`.
 
-[Quick start](#quick-start) · [Development](#development)
-
 ## Quick start
 
 Here is an example of using KASM to estimate heritability from exome-wide
