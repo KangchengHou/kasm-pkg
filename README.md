@@ -1,9 +1,10 @@
 # KASM
 
-[![tests](https://img.shields.io/github/actions/workflow/status/KangchengHou/kasm-pkg/tests.yml?branch=main&label=tests&logo=github&style=flat-square)](https://github.com/KangchengHou/kasm-pkg/actions/workflows/tests.yml)
-[![PyPI](https://img.shields.io/pypi/v/kasm-pkg?logo=pypi&logoColor=white&style=flat-square)](https://pypi.org/project/kasm-pkg/)
-[![Python](https://img.shields.io/pypi/pyversions/kasm-pkg?logo=python&logoColor=white&style=flat-square)](https://pypi.org/project/kasm-pkg/)
-[![License](https://img.shields.io/github/license/KangchengHou/kasm-pkg?style=flat-square)](https://github.com/KangchengHou/kasm-pkg/blob/main/LICENSE)
+[![Documentation](https://img.shields.io/badge/Documentation-DOCS.md-blue?style=flat-square)](https://github.com/KangchengHou/kasm-pkg/blob/main/DOCS.md)
+[![Tests](https://img.shields.io/github/actions/workflow/status/KangchengHou/kasm-pkg/tests.yml?branch=main&label=Tests&logo=github&style=flat-square)](https://github.com/KangchengHou/kasm-pkg/actions/workflows/tests.yml)
+[![PyPI](https://img.shields.io/pypi/v/kasm-pkg?label=PyPI&logo=pypi&logoColor=white&style=flat-square)](https://pypi.org/project/kasm-pkg/)
+[![Python](https://img.shields.io/pypi/pyversions/kasm-pkg?label=Python&logo=python&logoColor=white&style=flat-square)](https://pypi.org/project/kasm-pkg/)
+[![License](https://img.shields.io/github/license/KangchengHou/kasm-pkg?label=License&style=flat-square)](https://github.com/KangchengHou/kasm-pkg/blob/main/LICENSE)
 
 The Kernel Allelic Series Model (KASM) integrates functional annotations to
 form a covariance kernel describing how allelic effects within a gene covary.
@@ -14,7 +15,7 @@ paper describes the methodology and applications in detail.
 
 KASM can be installed with `pip install kasm-pkg` or `uv add kasm-pkg`.
 
-[Documentation](https://github.com/KangchengHou/kasm-pkg/blob/main/DOCS.md) · [Quick start](#quick-start) · [Development](#development)
+[Quick start](#quick-start) · [Development](#development)
 
 ## Quick start
 
@@ -61,10 +62,14 @@ See more examples in the [documentation](https://github.com/KangchengHou/kasm-pk
 
 ## Development
 
-Development uses [uv](https://docs.astral.sh/uv/):
+Contributions are welcome: open an
+[issue](https://github.com/KangchengHou/kasm-pkg/issues) for bugs and
+questions, or a pull request for fixes and features. Development uses
+[uv](https://docs.astral.sh/uv/):
 
 ```bash
-uv run --extra dev pytest
-uv run --extra dev pytest --full
+git clone https://github.com/KangchengHou/kasm-pkg.git
+cd kasm-pkg
 uv run --extra dev pre-commit install
+uv run --extra dev pytest
 ```
