@@ -20,7 +20,7 @@ KASM can be installed with `pip install kasm-pkg` or `uv add kasm-pkg`.
 Here is an example of using KASM to estimate heritability from exome-wide
 association statistics. KASM takes variant-level association statistics: one
 row per variant, with a canonical `chr:pos:ref:alt` ID, its gene, the effect
-estimate and SE, allele frequency, and annotations used as burden weights.
+estimate and SE, allele frequency, and functional annotations.
 Within-gene LD comes from an LD matrix file passed to `Dataset` as `ldm`;
 without one, as in this toy example, KASM assumes no LD between variants.
 
@@ -62,8 +62,7 @@ See more examples in the [documentation](https://github.com/KangchengHou/kasm-pk
 
 Contributions are welcome: open an
 [issue](https://github.com/KangchengHou/kasm-pkg/issues) for bugs and
-questions, or a pull request for fixes and features. Development uses
-[uv](https://docs.astral.sh/uv/):
+questions, or a pull request for fixes and features.
 
 ```bash
 git clone https://github.com/KangchengHou/kasm-pkg.git
