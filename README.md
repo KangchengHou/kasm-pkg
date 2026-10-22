@@ -10,8 +10,8 @@ KASM is a method that integrates functional annotations to form a covariance
 kernel describing how allelic effects within a gene covary. Using data from
 exome association studies, KASM estimates the heritability of rare protein
 coding variants, its enrichment in structural and functional annotations, and
-the concordance of effects between pairs of variants. Our paper describes the
-methodology and applications in detail.
+the concordance of effects between pairs of variants. [Our paper](https://www.medrxiv.org/content/10.64898/2026.10.16.26365771v1)
+describes the methodology and applications in detail.
 
 KASM can be installed with `pip install kasm-pkg` or `uv add kasm-pkg`.
 
